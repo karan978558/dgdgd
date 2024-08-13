@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- <style>
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  gap: 5px;
+  background-color: #7ad2ec;
+  padding: 7px;
+  border-radius: 10px;
+}
+
+ div {
+  background-color: rgba(24, 245, 61, 0.692);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+</style>
+</head>
+<body style="background-color: red;">
+
+<h1>Grid Layout</h1>
+<div class="grid-container">
+  <div class="item1">Header this is header</div>
+  <div class="item2">Menu this is menu</div>
+  <div class="item3">Main this is main</div>  
+  <div class="item4">Right this is right</div>
+  <div class="item5">Footer this is footer </div>
+</div> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.grid-container {
+  display: grid;
+ grid-template-columns: auto auto auto auto auto auto;
+  background-color: #cccf10;
+  padding: 10px;
+  border-radius: 10PX;
+}
+
+.grid-item {
+  background-color: rgba(241, 33, 33, 0.8);
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+#item1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+/* .item1 {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+
+}
+
+.item2 {
+  grid-column: 3;
+  grid-row: 1 / span 2;
+} */
+
+/* .item5 {
+  grid-column: 1 / span 3;
+  grid-row: 3;
+} */
+</style>
+</head>
+<body>
+
+
+<div class="grid-container">
+  <div class="grid-item item1">1</div>
+  <div class="grid-item item2">2</div>
+  <div class="grid-item item3">3</div>  
+  <div class="grid-item item4">4</div>
+  <div class="grid-item item5">5</div>
+</div>
+
+
+</body>
+</html>
+
+
+
+
+</body>
+</html>
+
+

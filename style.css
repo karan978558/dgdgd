@@ -1,0 +1,75 @@
+/* h1::before{
+  
+    content: "Mr.";
+    height: 50px;
+    width: 100px;
+    color: red;
+  
+}
+h1{
+    color: aquamarine;
+}
+button{
+    color:wheat;
+    background-color:blue;
+}
+button::after{
+    content: "deepak";
+   color: greenyellow;
+
+  
+
+
+} */
+/* b{
+    text-size-adjust: ;
+}
+
+pre::after{
+    
+    font-family: Arial, Helvetica, sans-serif;
+  content: "thhhhhhhhhhhhh";
+   
+    font-variant: small-caps;
+    color:blue;
+} */
+
+/* li:hover{
+    background-color: yellow;
+}
+p{
+    opacity: 0%;
+}
+p:hover{
+    height: 100px;
+    width: 500px;
+    border: 5px solid black;
+    background-color: pink;
+    opacity: 100%;
+} */
+
+/* #A{
+    
+    display: none;
+}
+div:hover{
+    background-color: yellow;
+    display: block;
+} */
+/* 
+p:first-child{
+    color: brown;
+    padding: 10px;
+    background-color: rgb(0, 255, 221);
+} */
+
+/* i:first-child{
+    padding: 10px;
+    color:blue;
+   background: linear-gradient(red,green,blue,yellow,
+   orange,aqua,pink);
+} */
+/* q{
+    font-size: larger;
+    quotes: "MR" "Gupta";
+} */
